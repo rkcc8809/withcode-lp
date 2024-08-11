@@ -21,24 +21,10 @@
       sizes="180x180"
       href="本番環境URL/img/logo.png"
     />
-    <!-- CSS-外部 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/scroll-hint@latest/css/scroll-hint.css"
-    />
-    <script src="https://unpkg.com/scroll-hint@latest/js/scroll-hint.min.js"></script>
     <!-- CSS-内部 -->
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="scrollhint/scroll-hint.css" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
@@ -69,17 +55,29 @@
                   <p>転職・副業の第一歩を！</p>
                 </div>
                 <div class="top-wrap__circle">
-                  <div class="top-wrap__circle__img">
-                    <img src="img/FV-circle-1.webp" alt="7日間で完全マスター" />
+                  <div class="top-wrap__circle__block">
+                    <div class="top-wrap__circle__block__txt">
+                      <p>
+                        7日間で<br />
+                        完全マスター
+                      </p>
+                    </div>
                   </div>
-                  <div class="top-wrap__circle__img">
-                    <img
-                      src="img/FV-circle-2.webp"
-                      alt="メンターに質問し放題"
-                    />
+                  <div class="top-wrap__circle__block">
+                    <div class="top-wrap__circle__block__txt">
+                      <p>
+                        メンターに<br />
+                        質問し放題
+                      </p>
+                    </div>
                   </div>
-                  <div class="top-wrap__circle__img">
-                    <img src="img/FV-circle-3.webp" alt="業界未経験でもOK" />
+                  <div class="top-wrap__circle__block">
+                    <div class="top-wrap__circle__block__txt">
+                      <p>
+                        業界未経験<br />
+                        でもOK
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div class="top-wrap__btn">
@@ -221,7 +219,10 @@
               <div class="begin-wrap__ttl">
                 <div class="begin-wrap__ttl__top">
                   <div class="begin-wrap__ttl__top__bubble">
-                    <img src="img/bubble-1.webp" alt="7日間の" />
+                    <p>7日間<span>の</span></p>
+                  </div>
+                  <div class="begin-wrap__ttl__top__triangle">
+                    <div class="begin-wrap__ttl__top__triangle__inner"></div>
                   </div>
                 </div>
                 <div class="begin-wrap__ttl__center">
@@ -234,12 +235,7 @@
               <ul class="begin-wrap__con slider">
                 <li class="begin-wrap__con__box slide">
                   <div class="begin-wrap__con__box__above">
-                    <div class="begin-wrap__con__box__above__deco">
-                      <img
-                        src="img/beginning-decoration.webp"
-                        alt="初級コース装飾"
-                      />
-                    </div>
+                    <div class="begin-wrap__con__box__above__deco"></div>
                     <div class="begin-wrap__con__box__above__head">
                       <div class="begin-wrap__con__box__above__head__left">
                         <div
@@ -270,12 +266,7 @@
                 </li>
                 <li class="begin-wrap__con__box slide">
                   <div class="begin-wrap__con__box__above">
-                    <div class="begin-wrap__con__box__above__deco">
-                      <img
-                        src="img/beginning-decoration.webp"
-                        alt="初級コース装飾"
-                      />
-                    </div>
+                    <div class="begin-wrap__con__box__above__deco"></div>
                     <div class="begin-wrap__con__box__above__head">
                       <div class="begin-wrap__con__box__above__head__left">
                         <div
@@ -306,12 +297,7 @@
                 </li>
                 <li class="begin-wrap__con__box slide">
                   <div class="begin-wrap__con__box__above">
-                    <div class="begin-wrap__con__box__above__deco">
-                      <img
-                        src="img/beginning-decoration.webp"
-                        alt="初級コース装飾"
-                      />
-                    </div>
+                    <div class="begin-wrap__con__box__above__deco"></div>
                     <div class="begin-wrap__con__box__above__head">
                       <div class="begin-wrap__con__box__above__head__left">
                         <div
@@ -342,12 +328,7 @@
                 </li>
                 <li class="begin-wrap__con__box slide">
                   <div class="begin-wrap__con__box__above">
-                    <div class="begin-wrap__con__box__above__deco">
-                      <img
-                        src="img/beginning-decoration.webp"
-                        alt="初級コース装飾"
-                      />
-                    </div>
+                    <div class="begin-wrap__con__box__above__deco"></div>
                     <div class="begin-wrap__con__box__above__head">
                       <div class="begin-wrap__con__box__above__head__left">
                         <div
@@ -378,12 +359,7 @@
                 </li>
                 <li class="begin-wrap__con__box slide">
                   <div class="begin-wrap__con__box__above">
-                    <div class="begin-wrap__con__box__above__deco">
-                      <img
-                        src="img/beginning-decoration.webp"
-                        alt="初級コース装飾"
-                      />
-                    </div>
+                    <div class="begin-wrap__con__box__above__deco"></div>
                     <div class="begin-wrap__con__box__above__head">
                       <div class="begin-wrap__con__box__above__head__left">
                         <div
@@ -1253,7 +1229,7 @@
                     <img src="img/system-2.webp" alt="挫折させないシステム2" />
                   </div>
                 </div>
-                <div class="point-wrap__con__block">
+                <div class="point-wrap__con__block __last">
                   <div class="point-wrap__con__block__head">
                     <p>point<span>03</span></p>
                   </div>
@@ -1527,8 +1503,14 @@
           <section class="info" id="info">
             <div class="info-wrap __inner">
               <div class="info-wrap__ttl">
-                <div class="info-wrap__ttl__bubble">
-                  <img src="img/bubble-3.webp" alt="本当に0円なの!?" />
+                <div class="info-wrap__ttl__inner">
+                  <div class="info-wrap__ttl__inner__bubble">
+                    <p>本当に<span>0円</span>なの!?</p>
+                    <!-- <img src="img/bubble-3.webp" alt="本当に0円なの!?" /> -->
+                  </div>
+                </div>
+                <div class="info-wrap__ttl__triangle">
+                  <div class="info-wrap__ttl__triangle__bubble"></div>
                 </div>
                 <p class="info-wrap__ttl__first">
                   WithCodeでは<span>無</span><span>条</span><span>件</span>で
@@ -1878,8 +1860,9 @@
         </footer>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="scrollhint/scroll-hint.min.js"></script>
     <script type="text/javascript" src="js/number.js"></script>
     <script type="text/javascript" src="js/slideshow.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
