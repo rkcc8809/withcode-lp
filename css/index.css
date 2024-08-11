@@ -9,24 +9,28 @@ html {
   font-weight: 700;
   src: url("../../fonts/NotoSansJP-Bold.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans JP";
   font-weight: 500;
   src: url("../../fonts/NotoSansJP-Medium.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans JP";
   font-weight: 400;
   src: url("../../fonts/NotoSansJP-Regular.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans JP";
   font-weight: 900;
   src: url("../../fonts/NotoSansJP-Black.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 body {
   font-family: "Noto Sans JP", sans-serif;
@@ -101,6 +105,7 @@ li {
 }
 .top-wrap__bg img {
   width: 100%;
+  height: auto;
   display: block;
 }
 .top-wrap__ttl {
@@ -127,6 +132,7 @@ li {
 }
 .top-wrap__ttl.__second img {
   width: clamp(12.5rem, -2.045rem + 72.73vw, 17.5rem);
+  height: auto;
   position: relative;
   z-index: -1;
   top: -14px;
@@ -278,6 +284,13 @@ li {
 }
 .cta-anchor__main__con__act p {
   font-size: clamp(0.813rem, -0.278rem + 5.45vw, 1rem);
+}
+.cta-anchor__main__con__icon {
+  width: 10%;
+}
+.cta-anchor__main__con__icon img {
+  width: 100%;
+  display: block;
 }
 
 .__arrow {
@@ -645,12 +658,19 @@ li {
 }
 .slick-prev::before,
 .slick-next::before {
+  z-index: 3;
   content: "→";
   display: block;
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
           transform: translateY(2px);
   font-size: 20px;
+  opacity: 1;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #ffbf00;
+  color: #fff;
 }
 
 .slick-prev {
