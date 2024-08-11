@@ -1691,10 +1691,6 @@
           border-top: 9px solid g.$cBlue;
         }
       }
-      // & img {
-      //   width: 100%;
-      //   display: block;
-      // }
 
       & p {
         margin: 2% 0;
@@ -1812,10 +1808,6 @@ td {
   border-top: 30px solid g.$cWhite;
   position: relative;
   z-index: 2;
-}
-
-.scroll-hint-wrapper::-webkit-scrollbar {
-  height: 4px; /* スクロールバーの高さを統一 */
 }
 
 .safety {

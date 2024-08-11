@@ -1904,10 +1904,6 @@ td {
   z-index: 2;
 }
 
-.scroll-hint-wrapper::-webkit-scrollbar {
-  height: 4px; /* スクロールバーの高さを統一 */
-}
-
 .safety {
   background-color: rgba(117, 167, 255, 0.16);
   padding: 7.5% 0;
