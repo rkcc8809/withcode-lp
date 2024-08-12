@@ -22,11 +22,32 @@
       href="本番環境URL/img/logo.png"
     />
     <!-- CSS-内部 -->
-    <link rel="stylesheet" href="slick/slick.css" />
-    <link rel="stylesheet" href="slick/slick-theme.css" />
-    <link rel="stylesheet" href="scrollhint/scroll-hint.css" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="slick/slick.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="stylesheet"
+      href="slick/slick-theme.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="stylesheet"
+      href="scrollhint/scroll-hint.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="css/primary.css"
+      media="print"
+      onload="this.media='all'"
+    />
   </head>
   <body>
     <div class="bg-outer">
@@ -35,21 +56,69 @@
           <div class="header">
             <div class="header-wrap">
               <div class="header-wrap__logo">
-                <img src="img/withcode-logo-header.webp" alt="WithCodeのロゴ" />
+                <link
+                  rel="preload"
+                  as="image"
+                  href="img/withcode-logo-header.webp"
+                  fetchpriority="high"
+                />
+                <img
+                  src="img/withcode-logo-header.webp"
+                  decoding="async"
+                  loading="eager"
+                  fetchpriority="high"
+                  alt="WithCodeのロゴ"
+                />
               </div>
             </div>
             <div class="top" id="top">
               <div class="top-wrap">
                 <div class="top-wrap__bg">
-                  <img src="img/fv-img.webp" alt="PCを手に持つ女性" />
+                  <link
+                    rel="preload"
+                    as="image"
+                    href="img/fv-img.webp"
+                    fetchpriority="high"
+                  />
+                  <img
+                    src="img/fv-img.webp"
+                    decoding="async"
+                    loading="eager"
+                    fetchpriority="high"
+                    alt="PCを手に持つ女性"
+                  />
                 </div>
                 <div class="top-wrap__ttl __first">
                   <p>条件は一切無し！</p>
-                  <img src="img/fv-underline.webp" alt="FVの下線" />
+                  <link
+                    rel="preload"
+                    as="image"
+                    href="img/fv-underline.webp"
+                    fetchpriority="high"
+                  />
+                  <img
+                    src="img/fv-underline.webp"
+                    decoding="async"
+                    loading="eager"
+                    fetchpriority="high"
+                    alt="FVの下線"
+                  />
                 </div>
                 <div class="top-wrap__ttl __second">
                   <p>Web制作会社が直接運営！</p>
-                  <img src="img/fv-underline.webp" alt="FVの下線" />
+                  <link
+                    rel="preload"
+                    as="image"
+                    href="img/fv-underline.webp"
+                    fetchpriority="high"
+                  />
+                  <img
+                    src="img/fv-underline.webp"
+                    decoding="async"
+                    loading="eager"
+                    fetchpriority="high"
+                    alt="FVの下線"
+                  />
                 </div>
                 <div class="top-wrap__head">
                   <p>転職・副業の第一歩を！</p>
@@ -96,8 +165,17 @@
                         </div>
                         <div class="cta-anchor__main__con">
                           <div class="cta-anchor__main__con__icon">
+                            <link
+                              rel="preload"
+                              as="image"
+                              href="img/line-icon.webp"
+                              fetchpriority="high"
+                            />
                             <img
                               src="img/line-icon.webp"
+                              decoding="async"
+                              loading="eager"
+                              fetchpriority="high"
                               alt="LINEのアイコン"
                             />
                           </div>
@@ -162,12 +240,24 @@
                   <p>株式会社Losta 代表取締役</p>
                 </div>
                 <div class="greet-wrap__left__img">
-                  <img src="img/signiture.webp" alt="代表サイン" />
+                  <img
+                    src="img/signiture.webp"
+                    decoding="async"
+                    loading="async"
+                    fetchpriority="low"
+                    alt="代表サイン"
+                  />
                 </div>
               </div>
               <div class="greet-wrap__right">
                 <div class="greet-wrap__right__img">
-                  <img src="img/greet-img.webp" alt="代表の想い画像" />
+                  <img
+                    src="img/greet-img.webp"
+                    decoding="async"
+                    loading="async"
+                    fetchpriority="low"
+                    alt="代表の想い画像"
+                  />
                 </div>
               </div>
             </div>
@@ -205,10 +295,22 @@
                 </div>
                 <div class="pre-wrap__con__body">
                   <div class="pre-wrap__con__body__img">
-                    <img src="img/jissen-1.webp" alt="実践カリキュラム1" />
+                    <img
+                      src="img/jissen-1.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="実践カリキュラム1"
+                    />
                   </div>
                   <div class="pre-wrap__con__body__img __second">
-                    <img src="img/jissen-2.webp" alt="実践カリキュラム2" />
+                    <img
+                      src="img/jissen-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="実践カリキュラム2"
+                    />
                   </div>
                 </div>
               </div>
@@ -244,7 +346,13 @@
                           <div
                             class="begin-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>T.Mさん</p>
                         </div>
@@ -275,7 +383,13 @@
                           <div
                             class="begin-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>T.Mさん</p>
                         </div>
@@ -306,7 +420,13 @@
                           <div
                             class="begin-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>T.Mさん</p>
                         </div>
@@ -337,7 +457,13 @@
                           <div
                             class="begin-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>T.Mさん</p>
                         </div>
@@ -368,7 +494,13 @@
                           <div
                             class="begin-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>T.Mさん</p>
                         </div>
@@ -403,16 +535,40 @@
                 <div class="case-wrap__con__scroll">
                   <ul class="case-wrap__con__scroll__list">
                     <li class="case-wrap__con__scroll__list__item">
-                      <img src="img/case-img.webp" alt="制作実績" />
+                      <img
+                        src="img/case-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="制作実績"
+                      />
                     </li>
                     <li class="case-wrap__con__scroll__list__item">
-                      <img src="img/case-img.webp" alt="制作実績" />
+                      <img
+                        src="img/case-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="制作実績"
+                      />
                     </li>
                     <li class="case-wrap__con__scroll__list__item">
-                      <img src="img/case-img.webp" alt="制作実績" />
+                      <img
+                        src="img/case-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="制作実績"
+                      />
                     </li>
                     <li class="case-wrap__con__scroll__list__item">
-                      <img src="img/case-img.webp" alt="制作実績" />
+                      <img
+                        src="img/case-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="制作実績"
+                      />
                     </li>
                   </ul>
                 </div>
@@ -470,7 +626,13 @@
                   </div>
                   <div class="why-wrap__box__con__bottom">
                     <div class="why-wrap__box__con__bottom__img">
-                      <img src="img/graph.webp" alt="案件獲得率" />
+                      <img
+                        src="img/graph.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="案件獲得率"
+                      />
                     </div>
                   </div>
                 </div>
@@ -546,7 +708,13 @@
                           <div
                             class="act-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>菅井さん</p>
                         </div>
@@ -600,7 +768,13 @@
                           <div
                             class="act-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>菅井さん</p>
                         </div>
@@ -654,7 +828,13 @@
                           <div
                             class="act-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>菅井さん</p>
                         </div>
@@ -708,7 +888,13 @@
                           <div
                             class="act-wrap__con__box__above__head__left__img__circle"
                           >
-                            <img src="img/cv-img.webp" alt="初級コースの感想" />
+                            <img
+                              src="img/cv-img.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
+                              alt="初級コースの感想"
+                            />
                           </div>
                           <p>菅井さん</p>
                         </div>
@@ -770,11 +956,20 @@
                   <div class="cv-wrap__intro__con__bubble">
                     <img
                       src="img/bubble-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="皆様の目標達成をサポートします！"
                     />
                   </div>
                   <div class="cv-wrap__intro__con__img">
-                    <img src="img/cv-img.webp" alt="説明する男性のイラスト" />
+                    <img
+                      src="img/cv-img.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="説明する男性のイラスト"
+                    />
                   </div>
                 </div>
                 <div class="cv-wrap__intro__cta">
@@ -795,6 +990,9 @@
                           <div class="cta-anchor__main__con__icon">
                             <img
                               src="img/line-icon.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
                               alt="LINEのアイコン"
                             />
                           </div>
@@ -827,10 +1025,22 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-1.webp" alt="公式LINE登録手順1" />
+                        <img
+                          src="img/mock-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順1"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__arch">
-                        <img src="img/arch-1.webp" alt="Click here" />
+                        <img
+                          src="img/arch-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Click here"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__cta">
                         <div class="cta">
@@ -850,6 +1060,9 @@
                                 <div class="cta-anchor__main__con__icon">
                                   <img
                                     src="img/line-icon.webp"
+                                    decoding="async"
+                                    loading="async"
+                                    fetchpriority="low"
                                     alt="LINEのアイコン"
                                   />
                                 </div>
@@ -880,12 +1093,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-2.webp" alt="公式LINE登録手順2" />
+                        <img
+                          src="img/mock-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順2"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __second"
                       >
-                        <img src="img/arch-2.webp" alt="Add Friend" />
+                        <img
+                          src="img/arch-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Add Friend"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__quest">
                         <p
@@ -916,12 +1141,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-3.webp" alt="公式LINE登録手順3" />
+                        <img
+                          src="img/mock-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順3"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __third"
                       >
-                        <img src="img/arch-3.webp" alt="Start of Course" />
+                        <img
+                          src="img/arch-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Start of Course"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__counseling">
                         <p
@@ -967,7 +1204,13 @@
               </ul>
               <div class="target-wrap__achieve">
                 <div class="target-wrap__achieve__img">
-                  <img src="img/achieve.webp" alt="制作会社だからできること" />
+                  <img
+                    src="img/achieve.webp"
+                    decoding="async"
+                    loading="async"
+                    fetchpriority="low"
+                    alt="制作会社だからできること"
+                  />
                 </div>
                 <div class="target-wrap__achieve__mess">
                   <p><span>WithCode</span>であれば</p>
@@ -997,7 +1240,13 @@
                       <p>フルリモート<span>×</span>フリーランスエージェント</p>
                     </div>
                     <div class="support-wrap__list__item__top__logo">
-                      <img src="img/withfree-logo.webp" alt="WithFreeのロゴ" />
+                      <img
+                        src="img/withfree-logo.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="WithFreeのロゴ"
+                      />
                     </div>
                     <hr />
                     <div class="support-wrap__list__item__top__txt">
@@ -1008,7 +1257,13 @@
                   </div>
                   <div class="support-wrap__list__item__bottom">
                     <div class="support-wrap__list__item__bottom__img">
-                      <img src="img/withfree-img.webp" alt="WithFree紹介" />
+                      <img
+                        src="img/withfree-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="WithFree紹介"
+                      />
                     </div>
                     <div class="support-wrap__list__item__bottom__btn">
                       <div class="support-wrap__list__item__bottom__btn__inner">
@@ -1037,6 +1292,9 @@
                     <div class="support-wrap__list__item__top__logo">
                       <img
                         src="img/withcareer-logo.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
                         alt="WithCareerのロゴ"
                       />
                     </div>
@@ -1049,7 +1307,13 @@
                   </div>
                   <div class="support-wrap__list__item__bottom">
                     <div class="support-wrap__list__item__bottom__img">
-                      <img src="img/withcareer-img.webp" alt="WithCareer紹介" />
+                      <img
+                        src="img/withcareer-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
+                        alt="WithCareer紹介"
+                      />
                     </div>
                     <div class="support-wrap__list__item__bottom__btn">
                       <div class="support-wrap__list__item__bottom__btn__inner">
@@ -1078,6 +1342,9 @@
                     <div class="support-wrap__list__item__top__logo">
                       <img
                         src="img/withcodecamp-logo.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
                         alt="WithCode Campのロゴ"
                       />
                     </div>
@@ -1094,6 +1361,9 @@
                     <div class="support-wrap__list__item__bottom__img">
                       <img
                         src="img/withcodecamp-img.webp"
+                        decoding="async"
+                        loading="async"
+                        fetchpriority="low"
                         alt="WithCode Camp紹介"
                       />
                     </div>
@@ -1135,6 +1405,9 @@
                   <div class="difficult-wrap__con__block__img">
                     <img
                       src="img/difficult-1.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="プログラミング学習の難しい理由1"
                     />
                   </div>
@@ -1149,6 +1422,9 @@
                   <div class="difficult-wrap__con__block__img __second">
                     <img
                       src="img/difficult-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="プログラミング学習の難しい理由2"
                     />
                   </div>
@@ -1163,6 +1439,9 @@
                   <div class="difficult-wrap__con__block__img">
                     <img
                       src="img/difficult-3.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="プログラミング学習の難しい理由3"
                     />
                   </div>
@@ -1208,7 +1487,13 @@
                     </div>
                   </div>
                   <div class="point-wrap__con__block__bottom">
-                    <img src="img/system-1.webp" alt="挫折させないシステム1" />
+                    <img
+                      src="img/system-1.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="挫折させないシステム1"
+                    />
                   </div>
                 </div>
                 <div class="point-wrap__con__block">
@@ -1226,7 +1511,13 @@
                     </div>
                   </div>
                   <div class="point-wrap__con__block__bottom">
-                    <img src="img/system-2.webp" alt="挫折させないシステム2" />
+                    <img
+                      src="img/system-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="挫折させないシステム2"
+                    />
                   </div>
                 </div>
                 <div class="point-wrap__con__block __last">
@@ -1245,7 +1536,13 @@
                     </div>
                   </div>
                   <div class="point-wrap__con__block__bottom">
-                    <img src="img/system-3.webp" alt="挫折させないシステム3" />
+                    <img
+                      src="img/system-3.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="挫折させないシステム3"
+                    />
                   </div>
                 </div>
               </div>
@@ -1266,7 +1563,13 @@
               <ul class="continue-wrap__list">
                 <li class="continue-wrap__list__item">
                   <div class="continue-wrap__list__item__img">
-                    <img src="img/support-1.webp" alt="卒業後も続くサポート1" />
+                    <img
+                      src="img/support-1.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="卒業後も続くサポート1"
+                    />
                   </div>
                   <div class="continue-wrap__list__item__ttl">
                     <p>カリキュラムは永久閲覧可能</p>
@@ -1279,7 +1582,13 @@
                 </li>
                 <li class="continue-wrap__list__item">
                   <div class="continue-wrap__list__item__img">
-                    <img src="img/support-2.webp" alt="卒業後も続くサポート2" />
+                    <img
+                      src="img/support-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="卒業後も続くサポート2"
+                    />
                   </div>
                   <div class="continue-wrap__list__item__ttl">
                     <p>コミュニティで学びを継続</p>
@@ -1329,11 +1638,20 @@
                   <div class="cv-wrap__intro__con__bubble">
                     <img
                       src="img/bubble-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="皆様の目標達成をサポートします！"
                     />
                   </div>
                   <div class="cv-wrap__intro__con__img">
-                    <img src="img/cv-img.webp" alt="説明する男性のイラスト" />
+                    <img
+                      src="img/cv-img.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="説明する男性のイラスト"
+                    />
                   </div>
                 </div>
                 <div class="cv-wrap__intro__cta">
@@ -1354,6 +1672,9 @@
                           <div class="cta-anchor__main__con__icon">
                             <img
                               src="img/line-icon.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
                               alt="LINEのアイコン"
                             />
                           </div>
@@ -1386,10 +1707,22 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-1.webp" alt="公式LINE登録手順1" />
+                        <img
+                          src="img/mock-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順1"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__arch">
-                        <img src="img/arch-1.webp" alt="Click here" />
+                        <img
+                          src="img/arch-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Click here"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__cta">
                         <div class="cta">
@@ -1409,6 +1742,9 @@
                                 <div class="cta-anchor__main__con__icon">
                                   <img
                                     src="img/line-icon.webp"
+                                    decoding="async"
+                                    loading="async"
+                                    fetchpriority="low"
                                     alt="LINEのアイコン"
                                   />
                                 </div>
@@ -1439,12 +1775,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-2.webp" alt="公式LINE登録手順2" />
+                        <img
+                          src="img/mock-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順2"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __second"
                       >
-                        <img src="img/arch-2.webp" alt="Add Friend" />
+                        <img
+                          src="img/arch-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Add Friend"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__quest">
                         <p
@@ -1475,12 +1823,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-3.webp" alt="公式LINE登録手順3" />
+                        <img
+                          src="img/mock-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順3"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __third"
                       >
-                        <img src="img/arch-3.webp" alt="Start of Course" />
+                        <img
+                          src="img/arch-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Start of Course"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__counseling">
                         <p
@@ -1600,6 +1960,9 @@
               <div class="safety-wrap__img">
                 <img
                   src="img/safety-img.webp"
+                  decoding="async"
+                  loading="async"
+                  fetchpriority="low"
                   alt="安心してお申し込みください！"
                 />
               </div>
@@ -1627,7 +1990,13 @@
                 </p>
               </div>
               <div class="close-wrap__img">
-                <img src="img/close-img.webp" alt="最終あいさつ" />
+                <img
+                  src="img/close-img.webp"
+                  decoding="async"
+                  loading="async"
+                  fetchpriority="low"
+                  alt="最終あいさつ"
+                />
               </div>
               <div class="close-wrap__mess">
                 <p class="close-wrap__mess__first">副業・フリーランス</p>
@@ -1652,11 +2021,20 @@
                   <div class="cv-wrap__intro__con__bubble">
                     <img
                       src="img/bubble-2.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
                       alt="皆様の目標達成をサポートします！"
                     />
                   </div>
                   <div class="cv-wrap__intro__con__img">
-                    <img src="img/cv-img.webp" alt="説明する男性のイラスト" />
+                    <img
+                      src="img/cv-img.webp"
+                      decoding="async"
+                      loading="async"
+                      fetchpriority="low"
+                      alt="説明する男性のイラスト"
+                    />
                   </div>
                 </div>
                 <div class="cv-wrap__intro__cta">
@@ -1677,6 +2055,9 @@
                           <div class="cta-anchor__main__con__icon">
                             <img
                               src="img/line-icon.webp"
+                              decoding="async"
+                              loading="async"
+                              fetchpriority="low"
                               alt="LINEのアイコン"
                             />
                           </div>
@@ -1709,10 +2090,22 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-1.webp" alt="公式LINE登録手順1" />
+                        <img
+                          src="img/mock-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順1"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__arch">
-                        <img src="img/arch-1.webp" alt="Click here" />
+                        <img
+                          src="img/arch-1.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Click here"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__cta">
                         <div class="cta">
@@ -1732,6 +2125,9 @@
                                 <div class="cta-anchor__main__con__icon">
                                   <img
                                     src="img/line-icon.webp"
+                                    decoding="async"
+                                    loading="async"
+                                    fetchpriority="low"
                                     alt="LINEのアイコン"
                                   />
                                 </div>
@@ -1762,12 +2158,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-2.webp" alt="公式LINE登録手順2" />
+                        <img
+                          src="img/mock-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順2"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __second"
                       >
-                        <img src="img/arch-2.webp" alt="Add Friend" />
+                        <img
+                          src="img/arch-2.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Add Friend"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__quest">
                         <p
@@ -1798,12 +2206,24 @@
                   <div class="cv-wrap__guide__block__body">
                     <div class="cv-wrap__guide__block__body__con">
                       <div class="cv-wrap__guide__block__body__con__img">
-                        <img src="img/mock-3.webp" alt="公式LINE登録手順3" />
+                        <img
+                          src="img/mock-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="公式LINE登録手順3"
+                        />
                       </div>
                       <div
                         class="cv-wrap__guide__block__body__con__arch __third"
                       >
-                        <img src="img/arch-3.webp" alt="Start of Course" />
+                        <img
+                          src="img/arch-3.webp"
+                          decoding="async"
+                          loading="async"
+                          fetchpriority="low"
+                          alt="Start of Course"
+                        />
                       </div>
                       <div class="cv-wrap__guide__block__body__con__counseling">
                         <p
@@ -1831,6 +2251,9 @@
                 <a href="#">
                   <img
                     src="img/withcode-logo-footer.webp"
+                    decoding="async"
+                    loading="async"
+                    fetchpriority="low"
                     alt="WithCodeのロゴ"
                   />
                 </a>
@@ -1859,12 +2282,12 @@
         </footer>
       </div>
     </div>
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="scrollhint/scroll-hint.min.js"></script>
-    <script type="text/javascript" src="js/number.js"></script>
-    <script type="text/javascript" src="js/slideshow.js"></script>
-    <script type="text/javascript" src="js/scroll.js"></script>
-    <script type="text/javascript" src="js/timeline.js"></script>
+    <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="slick/slick.min.js" defer></script>
+    <script src="scrollhint/scroll-hint.min.js" defer></script>
+    <script type="text/javascript" src="js/number.js" defer></script>
+    <script type="text/javascript" src="js/slideshow.js" defer></script>
+    <script type="text/javascript" src="js/scroll.js" defer></script>
+    <script type="text/javascript" src="js/timeline.js" defer></script>
   </body>
 </html>

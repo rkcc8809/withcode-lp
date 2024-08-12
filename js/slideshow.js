@@ -41,4 +41,5 @@ $('.case-wrap__con__scroll__list').slick({
     cssEase: 'linear', //画像切り替えのアニメーション"linearは等速"
     pauseOnFocus: true, //フォーカスしたら止める
     pauseOnHover: true, //マウスホバーしたら止める
+    infinite: true, // 無限ループ
 });
