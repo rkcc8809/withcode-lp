@@ -1455,7 +1455,7 @@ li {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #ffbf00));
   background-image: -o-linear-gradient(transparent 60%, #ffbf00 0%);
   background-image: linear-gradient(transparent 60%, #ffbf00 0%);
-  height: 20px;
+  height: 21px;
 }
 .continue-wrap__list__item__txt p {
   font-size: 12px;
