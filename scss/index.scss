@@ -49,16 +49,19 @@
   height: 500px;
   &-wrap {
     &__bg {
-      width: 130%;
+      width: 100%;
       position: absolute;
       z-index: -1;
       bottom: 0;
-      left: -30%;
+      left: 0;
       overflow: hidden;
       & img {
         width: 100%;
         height: auto;
         display: block;
+      }
+      &.__pc {
+        display: none;
       }
     }
     &__ttl {
