@@ -1323,6 +1323,8 @@ li {
   background-image: -o-linear-gradient(transparent 60%, #ffbf00 0%);
   background-image: linear-gradient(transparent 60%, #ffbf00 0%);
   letter-spacing: 2px;
+  display: inline-block;
+  height: 21px;
 }
 
 .difficult-wrap__ttl .s-ttl {
