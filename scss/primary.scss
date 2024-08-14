@@ -588,6 +588,7 @@
           }
           &__plus {
             text-align: center;
+            margin: 1% 0 4%;
             & p {
               font-size: 30px;
               font-weight: 500;
@@ -674,6 +675,7 @@
               }
               &__right {
                 font-size: clamp(0.563rem, -0.165rem + 3.64vw, 0.688rem);
+                font-weight: 500;
               }
             }
             &__triangle {
