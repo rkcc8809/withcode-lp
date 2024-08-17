@@ -1,7 +1,7 @@
 "use strict";
 
 $('.slider').slick({
-  autoplaySpeed: 2500, // 自動再生の速度
+  autoplaySpeed: 10000, // 自動再生の速度
   speed: 1200, // スライド自体の速度
   autoplay: true, // 自動再生の設定
   infinite: true, // 永続化

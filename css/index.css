@@ -243,8 +243,6 @@ li {
   -webkit-transform: translate(-50%, 15px);
       -ms-transform: translate(-50%, 15px);
           transform: translate(-50%, 15px);
-}
-.cta-anchor__sub p {
   font-size: 11px;
   font-weight: 900;
   color: #153962;
@@ -266,8 +264,6 @@ li {
 }
 .cta-anchor__main__txt {
   text-align: center;
-}
-.cta-anchor__main__txt p {
   font-size: 11px;
   font-weight: 500;
 }
@@ -284,7 +280,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
-.cta-anchor__main__con__act p {
+.cta-anchor__main__con__act {
   font-size: clamp(0.813rem, -0.278rem + 5.45vw, 1rem);
 }
 .cta-anchor__main__con__icon {

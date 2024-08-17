@@ -1800,9 +1800,10 @@ td {
 .footer-wrap__copyright {
   background-color: #3b3a3a;
   text-align: center;
-  padding: 2.5% 0;
+  padding: 3.5% 0;
 }
 .footer-wrap__copyright small {
+  display: inherit;
   font-size: 10px;
   font-weight: 500;
   color: #fff;

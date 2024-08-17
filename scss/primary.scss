@@ -1731,8 +1731,9 @@ td {
     &__copyright {
       background-color: g.$cBlack-3;
       text-align: center;
-      padding: 2.5% 0;
+      padding: 3.5% 0;
       & small {
+        display: inherit;
         font-size: 10px;
         font-weight: 500;
         color: g.$cWhite;
