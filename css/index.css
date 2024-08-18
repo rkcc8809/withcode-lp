@@ -162,8 +162,6 @@ li {
   top: 38%;
   -webkit-clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
           clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
-}
-.top-wrap__head p {
   font-size: clamp(1rem, -0.273rem + 6.36vw, 1.438rem);
   color: #75a7ff;
 }
@@ -208,8 +206,6 @@ li {
 }
 .top-wrap__circle__block__txt {
   text-align: center;
-}
-.top-wrap__circle__block__txt p {
   font-size: clamp(0.563rem, 0.313rem + 1.25vw, 0.688rem);
   color: #75a7ff;
   line-height: 1.2;

@@ -110,10 +110,8 @@
       right: 0;
       top: 38%;
       clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
-      & p {
-        font-size: clamp(1rem, -0.273rem + 6.36vw, 1.438rem);
-        color: g.$cBlue;
-      }
+      font-size: clamp(1rem, -0.273rem + 6.36vw, 1.438rem);
+      color: g.$cBlue;
     }
     &__circle {
       display: flex;
@@ -144,11 +142,9 @@
         }
         &__txt {
           text-align: center;
-          & p {
-            font-size: clamp(0.563rem, 0.313rem + 1.25vw, 0.688rem);
-            color: g.$cBlue;
-            line-height: 1.2;
-          }
+          font-size: clamp(0.563rem, 0.313rem + 1.25vw, 0.688rem);
+          color: g.$cBlue;
+          line-height: 1.2;
         }
       }
     }
