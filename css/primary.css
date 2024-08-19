@@ -372,12 +372,12 @@ li {
 .slick-next {
   position: absolute;
   z-index: 2;
-  content: "→";
+  content: "";
   top: 42%;
   cursor: pointer;
   outline: none;
-  height: 35px;
-  width: 35px;
+  height: 34px;
+  width: 34px;
   background-color: #ffbf00;
   color: #fff;
   border-radius: 50%;
@@ -395,10 +395,18 @@ li {
 .slick-next::before {
   z-index: 3;
   content: "→";
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 20px;
   opacity: 1;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 .slick-prev:hover,
 .slick-next:hover {

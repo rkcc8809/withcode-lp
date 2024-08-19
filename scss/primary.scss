@@ -318,12 +318,12 @@
 .slick-next {
   position: absolute;
   z-index: 2;
-  content: "→";
+  content: "";
   top: 42%;
   cursor: pointer;
   outline: none;
-  height: 35px;
-  width: 35px;
+  height: 34px;
+  width: 34px;
   background-color: g.$cYellow;
   color: g.$cWhite;
   border-radius: 50%;
@@ -334,10 +334,13 @@
   &::before {
     z-index: 3;
     content: "→";
-    display: block;
+    // display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     opacity: 1;
-    margin-top: 1px;
+    margin-top: 2px;
   }
 
   &:hover {
@@ -644,11 +647,11 @@
               display: flex;
               align-items: center;
               &__left {
-                font-size: clamp(0.688rem, -0.04rem + 3.64vw, 0.813rem);
+                font-size: 12px;
                 width: 25%;
               }
               &__right {
-                font-size: clamp(0.563rem, -0.165rem + 3.64vw, 0.688rem);
+                font-size: 12px;
                 font-weight: 500;
                 line-height: 1.4;
               }
