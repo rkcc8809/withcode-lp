@@ -730,11 +730,11 @@ li {
           align-items: center;
 }
 .act-wrap__con__box__above__center__txt__left {
-  font-size: clamp(0.688rem, -0.04rem + 3.64vw, 0.813rem);
+  font-size: 12px;
   width: 25%;
 }
 .act-wrap__con__box__above__center__txt__right {
-  font-size: clamp(0.563rem, -0.165rem + 3.64vw, 0.688rem);
+  font-size: 12px;
   font-weight: 500;
   line-height: 1.4;
 }
