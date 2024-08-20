@@ -992,7 +992,7 @@ li {
   padding: 1.5%;
 }
 .target-wrap__con__txt.__first {
-  margin-left: 2.5%;
+  margin-left: 0.5%;
   -webkit-transform: rotate(-2.5deg);
       -ms-transform: rotate(-2.5deg);
           transform: rotate(-2.5deg);
@@ -1005,7 +1005,7 @@ li {
           transform: rotate(2.5deg);
 }
 .target-wrap__con__txt.__third {
-  margin-left: 7.5%;
+  margin-left: 5.5%;
   -webkit-transform: rotate(-2.5deg);
       -ms-transform: rotate(-2.5deg);
           transform: rotate(-2.5deg);
@@ -1033,7 +1033,7 @@ li {
 .target-wrap__achieve__mess {
   text-align: center;
   position: absolute;
-  bottom: 5%;
+  bottom: 3.5%;
   left: 0;
   padding: 5% 0;
   width: 100%;
@@ -1042,6 +1042,7 @@ li {
 .target-wrap__achieve__mess p {
   font-size: 15px;
   margin: 1.5% 0;
+  line-height: 1.2;
 }
 .target-wrap__achieve__mess p span {
   font-size: 25px;

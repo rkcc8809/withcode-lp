@@ -902,7 +902,7 @@
           padding: 1.5%;
         }
         &.__first {
-          margin-left: 2.5%;
+          margin-left: 0.5%;
           transform: rotate(-2.5deg);
         }
         &.__second {
@@ -911,7 +911,7 @@
           transform: rotate(2.5deg);
         }
         &.__third {
-          margin-left: 7.5%;
+          margin-left: 5.5%;
           transform: rotate(-2.5deg);
           margin-top: 1.5%;
         }
@@ -936,7 +936,7 @@
       &__mess {
         text-align: center;
         position: absolute;
-        bottom: 5%;
+        bottom: 3.5%;
         left: 0;
         padding: 5% 0;
         width: 100%;
@@ -944,6 +944,7 @@
         & p {
           font-size: 15px;
           margin: 1.5% 0;
+          line-height: 1.2;
           & span {
             font-size: 25px;
             color: g.$cBlue;
