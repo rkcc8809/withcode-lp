@@ -46,7 +46,7 @@
 .top {
   position: relative;
   z-index: -1;
-  height: 500px;
+  height: clamp(25rem, 12.5rem + 62.5vw, 31.25rem);
   &-wrap {
     &__bg {
       width: 100%;
@@ -55,6 +55,9 @@
       bottom: 0;
       left: 0;
       overflow: hidden;
+      @include g.mq(sp) {
+        left: -7.5%;
+      }
       & img {
         width: 100%;
         height: auto;
@@ -150,12 +153,15 @@
     }
     &__btn {
       position: relative;
-      top: 380px;
+      top: clamp(19.375rem, 10.625rem + 43.75vw, 23.75rem);
     }
   }
 }
 
 .cta {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
   &-anchor {
     &:hover {
       .__arrow {
@@ -168,12 +174,11 @@
       box-sizing: border-box;
       text-align: center;
       display: inline-block;
-      width: 50%;
+      width: 65%;
       margin: 0 auto;
       position: relative;
       z-index: 2;
-      left: 50%;
-      transform: translate(-50%, 15px);
+      transform: translateY(10px);
       font-size: 11px;
       font-weight: 900;
       color: g.$cNavy;
@@ -182,12 +187,10 @@
     &__main {
       display: inline-block;
       background-color: g.$cYellow;
-      width: 73%;
+      width: 80%;
       position: relative;
       top: 0;
-      left: 50%;
-      transform: translate(-50%, 0);
-      padding: 5% 0 1%;
+      padding: 4% 5.5% 2%;
       border-radius: 50px;
       border: 2px solid g.$cWhite;
       &__txt {
