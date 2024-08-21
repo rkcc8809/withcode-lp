@@ -99,7 +99,7 @@ li {
 .price {
   font-size: 40px;
   color: #ffbf00;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;
   letter-spacing: -5px;
   position: relative;
 }
@@ -377,7 +377,7 @@ li {
   position: absolute;
   z-index: 2;
   content: "";
-  top: 42%;
+  top: 50%;
   cursor: pointer;
   outline: none;
   height: 34px;

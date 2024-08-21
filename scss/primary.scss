@@ -50,8 +50,8 @@
 .price {
   font-size: 40px;
   color: g.$cYellow;
-  text-shadow: 2px 2px 0 g.$cWhite, -2px -2px 0 g.$cWhite, -2px 2px 0 g.$cWhite,
-    2px -2px 0 g.$cWhite;
+  text-shadow: 1px 1px 0 g.$cWhite, -1px -1px 0 g.$cWhite, -1px 1px 0 g.$cWhite,
+    1px -1px 0 g.$cWhite;
   letter-spacing: -5px;
   position: relative;
   &::after {
@@ -321,7 +321,7 @@
   position: absolute;
   z-index: 2;
   content: "";
-  top: 42%;
+  top: 50%;
   cursor: pointer;
   outline: none;
   height: 34px;
