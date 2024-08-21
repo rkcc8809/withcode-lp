@@ -83,9 +83,7 @@
         margin: 3% 0;
         font-weight: 500;
         color: g.$cBlack;
-        @include g.mq(sp) {
-          font-size: clamp(0.75rem, 0.438rem + 1.04vw, 0.938rem);
-        }
+        word-break: normal;
       }
       &__name {
         margin-top: 7.5%;
@@ -95,16 +93,10 @@
           font-size: 12px;
           color: g.$cBlack;
           font-weight: 500;
-          @include g.mq(sp) {
-            font-size: clamp(0.75rem, 0.438rem + 1.04vw, 0.938rem);
-          }
         }
         &__img {
           margin-top: 3.5%;
           width: 40%;
-          @include g.mq(sp) {
-            width: 55%;
-          }
           & img {
             width: 100%;
           }
@@ -524,6 +516,7 @@
             &__txt {
               font-size: 11px;
               margin: 2.5% 0;
+              word-break: normal;
               & p {
                 line-height: 1.4;
               }
@@ -1023,6 +1016,7 @@
             font-size: 12px;
             line-height: 1.4;
             font-weight: 500;
+            word-break: normal;
           }
         }
         &__bottom {
@@ -1360,6 +1354,7 @@
             font-size: 12px;
             font-weight: 500;
             line-height: 1.4;
+            word-break: normal;
           }
         }
       }
@@ -1645,6 +1640,9 @@ td {
       & span {
         font-size: 16px;
         font-weight: 700;
+      }
+      &__first {
+        word-break: normal;
       }
       &__second {
         margin: 7.5% 0;

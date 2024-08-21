@@ -129,11 +129,7 @@ li {
   margin: 3% 0;
   font-weight: 500;
   color: #000;
-}
-@media screen and (min-width: 480px) {
-  .greet-wrap__left__txt {
-    font-size: clamp(0.75rem, 0.438rem + 1.04vw, 0.938rem);
-  }
+  word-break: normal;
 }
 .greet-wrap__left__name {
   margin-top: 7.5%;
@@ -147,19 +143,9 @@ li {
   color: #000;
   font-weight: 500;
 }
-@media screen and (min-width: 480px) {
-  .greet-wrap__left__name p {
-    font-size: clamp(0.75rem, 0.438rem + 1.04vw, 0.938rem);
-  }
-}
 .greet-wrap__left__name__img {
   margin-top: 3.5%;
   width: 40%;
-}
-@media screen and (min-width: 480px) {
-  .greet-wrap__left__name__img {
-    width: 55%;
-  }
 }
 .greet-wrap__left__name__img img {
   width: 100%;
@@ -607,6 +593,7 @@ li {
 .why-wrap__box__con__top__block__txt {
   font-size: 11px;
   margin: 2.5% 0;
+  word-break: normal;
 }
 .why-wrap__box__con__top__block__txt p {
   line-height: 1.4;
@@ -1126,6 +1113,7 @@ li {
   font-size: 12px;
   line-height: 1.4;
   font-weight: 500;
+  word-break: normal;
 }
 .support-wrap__list__item__bottom {
   margin-top: 3.5%;
@@ -1470,6 +1458,7 @@ li {
   font-size: 12px;
   font-weight: 500;
   line-height: 1.4;
+  word-break: normal;
 }
 .continue-wrap__earn__top {
   -webkit-box-sizing: border-box;
@@ -1742,6 +1731,9 @@ td {
 .close-wrap__txt span {
   font-size: 16px;
   font-weight: 700;
+}
+.close-wrap__txt__first {
+  word-break: normal;
 }
 .close-wrap__txt__second {
   margin: 7.5% 0;
