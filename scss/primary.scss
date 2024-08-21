@@ -33,7 +33,7 @@
       }
       &__center {
         color: g.$cWhite;
-        font-size: 13.5px;
+        font-size: 13px;
         margin: 3.5% 0;
       }
       &__bottom {
@@ -648,7 +648,7 @@
               align-items: center;
               &__left {
                 font-size: 12px;
-                width: 25%;
+                width: 27%;
               }
               &__right {
                 width: 75%;
@@ -1170,6 +1170,9 @@
           margin: 0 3px;
           padding: 0 4px 6px;
         }
+        & span:nth-last-of-type(1) {
+          margin-right: 2%;
+        }
       }
       &__third {
         font-size: 11px;
@@ -1177,6 +1180,7 @@
         & span {
           font-size: clamp(0.813rem, -0.278rem + 5.45vw, 1rem);
           font-weight: 700;
+          margin: 0 -1%;
         }
       }
     }
@@ -1425,9 +1429,14 @@
           & p {
             font-size: 12px;
             color: g.$cWhite;
-            & span {
+            & span:nth-of-type(1) {
               font-size: 25px;
-              margin: 0 6px;
+              margin-left: 6px;
+              margin-right: 2px;
+            }
+            & span:nth-of-type(2) {
+              font-size: 20px;
+              margin-right: 6px;
             }
           }
         }
@@ -1498,6 +1507,7 @@
   border-bottom: 1px solid g.$cWhite;
   width: 100px;
   line-height: 4;
+  vertical-align: middle;
 }
 
 .__top {
@@ -1536,7 +1546,7 @@ td {
   font-size: 10px;
   width: 205px;
   vertical-align: middle;
-  padding: 0 2.5%;
+  padding: 1.5% 2.5%;
   line-height: 1.4;
 }
 
@@ -1547,9 +1557,9 @@ td {
 }
 
 .blue-line {
-  border-left: 1px solid g.$cBlue;
-  border-right: 1px solid g.$cBlue;
-  border-bottom: 1px solid g.$cBlue;
+  border-left: 2px solid g.$cBlue;
+  border-right: 2px solid g.$cBlue;
+  border-bottom: 2px solid g.$cBlue;
   color: g.$cBlue;
 }
 

@@ -85,7 +85,7 @@ li {
 }
 .intro-wrap__main__center {
   color: #fff;
-  font-size: 13.5px;
+  font-size: 13px;
   margin: 3.5% 0;
 }
 .intro-wrap__main__bottom {
@@ -731,7 +731,7 @@ li {
 }
 .act-wrap__con__box__above__center__txt__left {
   font-size: 12px;
-  width: 25%;
+  width: 27%;
 }
 .act-wrap__con__box__above__center__txt__right {
   width: 75%;
@@ -1273,6 +1273,9 @@ li {
   margin: 0 3px;
   padding: 0 4px 6px;
 }
+.difficult-wrap__learn__second span:nth-last-of-type(1) {
+  margin-right: 2%;
+}
 .difficult-wrap__learn__third {
   font-size: 11px;
   font-weight: 500;
@@ -1280,6 +1283,7 @@ li {
 .difficult-wrap__learn__third span {
   font-size: clamp(0.813rem, -0.278rem + 5.45vw, 1rem);
   font-weight: 700;
+  margin: 0 -1%;
 }
 .difficult-wrap__triangle {
   width: 0;
@@ -1523,9 +1527,14 @@ li {
   font-size: 12px;
   color: #fff;
 }
-.info-wrap__ttl__inner__bubble p span {
+.info-wrap__ttl__inner__bubble p span:nth-of-type(1) {
   font-size: 25px;
-  margin: 0 6px;
+  margin-left: 6px;
+  margin-right: 2px;
+}
+.info-wrap__ttl__inner__bubble p span:nth-of-type(2) {
+  font-size: 20px;
+  margin-right: 6px;
 }
 .info-wrap__ttl__triangle {
   margin-top: -6px;
@@ -1586,6 +1595,7 @@ li {
   border-bottom: 1px solid #fff;
   width: 100px;
   line-height: 4;
+  vertical-align: middle;
 }
 
 .__top {
@@ -1624,7 +1634,7 @@ td {
   font-size: 10px;
   width: 205px;
   vertical-align: middle;
-  padding: 0 2.5%;
+  padding: 1.5% 2.5%;
   line-height: 1.4;
 }
 
@@ -1635,9 +1645,9 @@ td {
 }
 
 .blue-line {
-  border-left: 1px solid #75a7ff;
-  border-right: 1px solid #75a7ff;
-  border-bottom: 1px solid #75a7ff;
+  border-left: 2px solid #75a7ff;
+  border-right: 2px solid #75a7ff;
+  border-bottom: 2px solid #75a7ff;
   color: #75a7ff;
 }
 
